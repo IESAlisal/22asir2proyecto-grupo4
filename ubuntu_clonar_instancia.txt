@@ -1,0 +1,14 @@
+sudo su
+apt-get update && upgrade -y
+apt install apache2 -y
+apt install php -y
+apt install libapache2-mod-php php-json php-xmlrpc php-curl php-intl php-gd php-zip php-mbstring php-xsl php-soap php-imagick php-xml -y
+apt install php-mysql -y
+apt install mysql-client && mysql-server -y
+
+cd /var/www/html
+rm -R index.html
+cd ..
+git clone https://github.com/IESAlisal/22asir2proyecto-grupo4
+cd 22asir2proyecto-grupo4 
+cp -R . /var/www/html
