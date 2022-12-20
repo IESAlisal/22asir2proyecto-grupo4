@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+
+apt-get update && upgrade -y
+apt install apache2 -y
+apt install php -y
+apt install libapache2-mod-php php-json php-xmlrpc php-curl php-intl php-gd php-zip php-mbstring php-xsl php-soap php-imagick php-xml -y
+apt install php-mysql -y
+apt install mysql-client -y
+
+cd /var/www/html
+rm -R index.html
+git clone https://github.com/IESAlisal/22asir2proyecto-grupo4 .
