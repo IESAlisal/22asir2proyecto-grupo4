@@ -5,11 +5,9 @@
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 
 
-<title>Inserción de libros.</title>
+<title>Trabaja con nosotros.</title>
 </head>
 <body>
-
-
 
 <div class="login-page">
   
@@ -31,8 +29,6 @@
     <a> <input type="button" value="Volver" onclick="window.location.href='index.php'"></a>
   </div>
 </div>
-
-
 
 </body>
 
