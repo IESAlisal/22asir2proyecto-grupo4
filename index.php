@@ -18,12 +18,14 @@ include "validaciones/no_sesion.php"
   <div class="botones">
       <a class= "enlace" href="libros.php">Alta de Libros</a>
       <a class= "enlace" href="libros_actualizar.php">Actualizar Libros</a>
-      <a class= "enlace" href="libros_borrar.php">Baja de Libros</a>
+      <a class= "enlace" href="libros_borrar.php">Baja de Libros</a></br></br><br>
+      <a class= "enlace" href="documentacion.php">Documentación para los socios de la Coop</a>
   </div>
 <div class="boton">
   <form action="">
     <input type="button" id="text_n" value="<?php echo utf8_decode($nuser); ?>" onclick="window.location.href='validaciones/cerrar_sesion.php'">
   </form>
+  
 </div>
 </div>
 
